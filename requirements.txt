@@ -1,0 +1,14 @@
+numpy
+pandas
+requests
+ipykernel
+python-dotenv
+xarray
+scipy
+pyarrow
+matplotlib
+holidays
+scikit-learn
+sqlalchemy
+psycopg
+pytest

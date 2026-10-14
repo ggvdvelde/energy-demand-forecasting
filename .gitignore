@@ -1,0 +1,33 @@
+# Local environment
+.venv/
+.env
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Generated data
+data/raw/*
+data/processed/*
+
+# Database backups
+*.dump
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Keep REData region configuration, but not downloaded responses
+!data/raw/ree_annual_demand_ccaa/
+data/raw/ree_annual_demand_ccaa/*
+!data/raw/ree_annual_demand_ccaa/regions.json
